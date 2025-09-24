@@ -20,6 +20,7 @@
         <li>Objetos</li>
         <li>Callable (funciones)</li>
         <li>Iterable</li>
+        <li>jsdjsjd</li>
     </ul>
 
     <h2>Tipos especiales</h2>
