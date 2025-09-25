@@ -40,6 +40,7 @@
         <li>El tipo especial NULL es false, un valor distinto de null es true</li>
         <li>Una variable no definida es false</li>
         <li>La cadena vacia es falsa, cualquier otra es verdadera true</li>
+        <li>hola</li>
     </ul>
 
 
