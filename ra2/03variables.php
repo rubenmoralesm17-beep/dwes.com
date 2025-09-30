@@ -136,7 +136,15 @@
         echo "<p>El archivo subido es $path_subido</p>";
 
         $precio_rebajado = PRECIO_BASE - PRECIO_BASE * 0.25;
-        echo "<p>El precio rebajado es $precio_rebajado</p>"
+        echo "<p>El precio rebajado es $precio_rebajado</p>";
+
+        // 2º Forma: Mediante la palabra clave const
+        const SESION_USUARIO = 600;
+        echo "<p>La sesion de usuario finaliza en " . SESION_USUARIO . " segundos</p>";
+
+        //Constantes predefinidas
+
+        echo "<p>Este script es " . __FILE__ . " y esta en el directorio " . __DIR__ . " y el numero de linea es " . __LINE__ . "</p>"
     ?>
     </body>
 </html>
